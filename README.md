@@ -18,7 +18,7 @@ sudo alsa force-reload
 4. If working, use the following commands to make the changes permanent
 ```bash
 alsactl init
-sudo alsactl sxitore --file /var/lib/alsa/asound.state
+sudo alsactl store --file /var/lib/alsa/asound.state
 sudo alsa force-reload
 ```
 ### 2. Fixing Audio for Headphones
@@ -39,7 +39,7 @@ Your basic keyboard keys should already be working good other than the exception
 ### Installation
 1. Navigate to /usr/share/X11 folder.
 2. Rename the "xkb" folder to "xkb.old"
-3. Download the xkb.zip file from [here](https://github.com/rgvxlens/EDGAR-Linux-Audio-Fix/blob/master/xkb.zip) and unzip in the same folder i.e. /usr/share/X11.
+3. Download the xkb.zip file from [here](https://github.com/optio50/ChromeBook-Keyboard-xkb/raw/master/xkb.zip) and unzip in the same folder i.e. /usr/share/X11.
 4. Reboot your laptop.
 5. In your distro's keyboard settings, you should have new settings for Chromebook (Google - Chromebooks).
 

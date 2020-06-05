@@ -1,7 +1,7 @@
 # Some fixes for running Linux as a daily driver on Acer Chromebook 14 CB3-431
 ## (Edgar // Braswell architecture)
 
-# Fixes for Ubuntu-based Distros (Ubuntu/Xubuntu/Kubuntu/Mint etc...)
+# Fixes for Arch-based distros
 Tested on EndeavourOS XFCE on an Acer Chromebook 14 CB3-431
 
 ## Update mirror list

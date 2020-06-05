@@ -7,7 +7,7 @@ Tested on EndeavourOS XFCE on an Acer Chromebook 14 CB3-431
 ## Update mirror list
 The below command updates the Pacman mirrorlist with latest 200 updated HTTP and HTTPS mirrors (configured for AU and NZ regions - refer to [ArchWiki](https://wiki.archlinux.org/index.php/Mirrors) for more info) sorted by download speed. The following command uses [reflector](https://wiki.archlinux.org/index.php/Reflector) to update and save the contents to /etc/pacman.d/mirrorlist.
 1. Open a Terminal window
-2. Ruun the below command:
+2. Run the below command:
 ```bash
 reflector --latest 200 --country AU --country NZ --protocol http --protocol https --sort rate --save /etc/pacman.d/mirrorlist
 ```

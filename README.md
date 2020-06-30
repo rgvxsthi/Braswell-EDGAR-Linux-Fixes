@@ -25,7 +25,7 @@ All thanks to [J. Starnes @ AskUbuntu](https://askubuntu.com/questions/974073/no
 2. Via Terminal,
 ```bash
 pgrep alsa
-sudo cp /media/ubuntu/UUID/var/lib/alsa/asound.state /var/lib/alsa/asound.state
+sudo cp asound.state /var/lib/alsa/asound.state
 sudo alsa force-reload
 ````
 3. Test to check that your sound is working or not (via Sound Mixer/Firefox etc)/

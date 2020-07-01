@@ -28,7 +28,7 @@ pgrep alsa
 sudo cp asound.state /var/lib/alsa/asound.state
 sudo alsa force-reload
 ````
-3. Test to check that your sound is working or not (via Sound Mixer/Firefox etc)/
+3. Test to check that your sound is working or not (via Sound Mixer/Firefox etc)
 4. If working, use the following commands to make the changes permanent
 ```bash
 alsactl init

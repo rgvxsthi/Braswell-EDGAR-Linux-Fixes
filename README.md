@@ -21,9 +21,9 @@ All thanks to [J. Starnes @ AskUbuntu](https://askubuntu.com/questions/974073/no
 
 ### Installation
 ### 1. Fixing Audio via Speakers
-1. Download the provided asound.state file - [link](https://github.com/rgvxlens/EDGAR-Linux-Audio-Fix/blob/master/asound.state)
-2. Via Terminal,
+1. Open a terminal and enter the following commands line-by-line:
 ```bash
+wget https://raw.githubusercontent.com/rgvxsthi/Braswell-EDGAR-Linux-Fixes/master/asound.state
 pgrep alsa
 sudo cp asound.state /var/lib/alsa/asound.state
 sudo alsa force-reload

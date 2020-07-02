@@ -17,7 +17,7 @@ reflector --latest 200 --country AU --country NZ --protocol http --protocol http
 Most of these fixes worked properly for me under Kubuntu 20.04 and KDE neon 5.18 on an Acer Chromebook 14 CB3-431! (seems to be good on most Ubuntu-based distros)
 
 ## Audio
-All thanks to [J. Starnes @ AskUbuntu](https://askubuntu.com/questions/974073/no-audio-on-acer-chromebook-14-under-ubuntu-17-10) for the fix. 
+All thanks to [J. Starnes @ AskUbuntu](https://askubuntu.com/questions/974073/no-audio-on-acer-chromebook-14-under-ubuntu-17-10) for the fix. [MrChromebox](https://www.reddit.com/r/chrultrabook/comments/hji0sv/fix_for_audio_on_ubuntu_distros_2004/fwmd2h2?utm_source=share&utm_medium=web2x) states that "this fix should work for all Braswell ChromeOS devices, except maybe the R11/C738T, since it uses a different audio codec/amp"
 
 ### Installation
 ### 1. Fixing Audio via Speakers

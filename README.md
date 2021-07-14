@@ -1,6 +1,7 @@
 # Some fixes for running Linux as a daily driver on Acer Chromebook 14 CB3-431
-## (Edgar // Braswell architecture)
+**Update Log:**
 
+ - 14/07/2021 - Updated Keyboard fix for Ubuntu/Debian distros
 # Fixes for Arch-based distros
 Tested on EndeavourOS XFCE on an Acer Chromebook 14 CB3-431
 
@@ -48,14 +49,27 @@ alsamixer
 
 
 ## Keyboard (multimedia keys - top row)
-All thanks to [optio50](https://github.com/optio50/ChromeBook-Keyboard-xkb) for the fix. 
-Your basic keyboard keys should already be working good other than the exception of the top multimedia keys. To use the keys the same way they work under ChromeOS on your Ubuntu-based distro, follow the below steps.
+
+All thanks to [[TickleMeElmo132 on Reddit](https://www.reddit.com/user/TickleMeElmo132)] for the [great write-up on this very easy fix](https://www.removeddit.com/r/GalliumOS/comments/nx25tq/install_chromebook_keyboard_on_ubuntu_and_debian/). 
+
+To use the keys the same way they work under ChromeOS on your Ubuntu-based distro, follow the below steps.
 ### Installation
-1. Navigate to /usr/share/X11 folder.
-2. Rename the "xkb" folder to "xkb.old"
-3. Download the xkb.zip file from [here](https://github.com/optio50/ChromeBook-Keyboard-xkb/raw/master/xkb.zip) and unzip in the same folder i.e. /usr/share/X11.
-4. Reboot your laptop.
-5. In your distro's keyboard settings, you should have new settings for Chromebook (Google - Chromebooks).
+1. Open up a terminal and type the following commands:
+```bash
+sudo apt install intltool xutils-dev -y
+```
+2. Once the above build utilities have installed/updated, open up a terminal to download GalliumOS's default keyboard configuration. This file is hosted on GalliumOS's build server and also mirror on this GitHub repository for easy access/download:
+```bash
+wget https://apt.galliumos.org/pool/main/x/xkeyboard-config/xkb-data-i18n_2.23.1-1ubuntu1-galliumos1_all.deb
+```
+3. Once the file has downloaded, install it with terminal:
+```bash
+sudo dpkg -i xkb-data-i18n_2.23.1-1ubuntu1-galliumos1_all.deb
+```
+4. Restart your computer and check your keyboard layout settings. You should have a new listing called "Chromebook". Play around with the settings and pick the option that suits best:
+5. 
+![enter image description here](https://image.prntscr.com/image/loQ52BtPQDWN28I6U4su0g.png)
+
 
 ## Fix for boot-menu not opening/boot options not displaying and only showing a black screen
 If for some reason, the boot options/menu show a black screen and you're not able to boot from the USB, try the following fix (big ups to MrChromebox for the [fix](https://www.reddit.com/r/coreboot/comments/fwl6wv/black_screen_when_selecting_boot_menu_or_boot/)). These should work on any distro, not just Ubuntu-based.

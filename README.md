@@ -1,3 +1,4 @@
+
 # Some fixes for running Linux as a daily driver on Acer Chromebook 14 CB3-431
 **Update Log:**
 
@@ -48,9 +49,9 @@ alsamixer
 5. Press "m" to unmute it and the ESC key to save these changes.
 
 
-## Keyboard (multimedia keys - top row)
+## Keyboard
 
-All thanks to [[TickleMeElmo132 on Reddit](https://www.reddit.com/user/TickleMeElmo132)] for the [great write-up on this very easy fix](https://www.removeddit.com/r/GalliumOS/comments/nx25tq/install_chromebook_keyboard_on_ubuntu_and_debian/). 
+All thanks to [TickleMeElmo132 on Reddit](https://www.reddit.com/user/TickleMeElmo132) for the [great write-up on this very easy fix](https://www.removeddit.com/r/GalliumOS/comments/nx25tq/install_chromebook_keyboard_on_ubuntu_and_debian/). 
 
 To use the keys the same way they work under ChromeOS on your Ubuntu-based distro, follow the below steps.
 ### Installation

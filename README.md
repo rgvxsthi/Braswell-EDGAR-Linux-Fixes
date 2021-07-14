@@ -68,8 +68,7 @@ wget https://apt.galliumos.org/pool/main/x/xkeyboard-config/xkb-data-i18n_2.23.1
 sudo dpkg -i xkb-data-i18n_2.23.1-1ubuntu1-galliumos1_all.deb
 ```
 4. Restart your computer and check your keyboard layout settings. You should have a new listing called "Chromebook". Play around with the settings and pick the option that suits best:
-5. 
-![enter image description here](https://image.prntscr.com/image/loQ52BtPQDWN28I6U4su0g.png)
+![Screenshot of Keyboard Layout Settings on Xubuntu 21.04](https://image.prntscr.com/image/loQ52BtPQDWN28I6U4su0g.png)
 
 
 ## Fix for boot-menu not opening/boot options not displaying and only showing a black screen

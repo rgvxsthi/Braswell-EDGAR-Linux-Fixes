@@ -1,4 +1,5 @@
 
+
 # Some fixes for running Linux as a daily driver on Acer Chromebook 14 CB3-431
 **Update Log:**
 
@@ -59,9 +60,9 @@ To use the keys the same way they work under ChromeOS on your Ubuntu-based distr
 ```bash
 sudo apt install intltool xutils-dev -y
 ```
-2. Once the above build utilities have installed/updated, open up a terminal to download GalliumOS's default keyboard configuration. This file is hosted on GalliumOS's build server and also mirror on this GitHub repository for easy access/download:
+2. Once the above build utilities have installed/updated, open up a terminal to download GalliumOS's default keyboard configuration. This file is hosted on [GalliumOS's build server](https://apt.galliumos.org/pool/main/x/xkeyboard-config/) and also [mirrored on this GitHub repository for easy access/download](https://github.com/rgvxsthi/Braswell-EDGAR-Linux-Fixes):
 ```bash
-wget https://apt.galliumos.org/pool/main/x/xkeyboard-config/xkb-data-i18n_2.23.1-1ubuntu1-galliumos1_all.deb
+wget https://apt.galliumos.org/pool/main/x/xkeyboard-config/xkb-data_2.23.1-1ubuntu1-galliumos1_all.deb
 ```
 3. Once the file has downloaded, install it with terminal:
 ```bash
